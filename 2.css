@@ -1,0 +1,56 @@
+h1:hover{
+    animation:color-change 3s infinite ;
+}
+@keyframes color-change{
+    0%{
+        color: rgba(0, 0, 0, 0);
+    }
+    50%{
+        color: rgb(96, 96, 98);
+    }
+    100%{
+        color: rgba(245, 246, 244, 0.923);
+    }
+}
+body {
+        font-family: "Pixelify Sans" , sans-serif
+
+}
+h3 {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* H3 1 */
+.h3-1 {
+    animation-name: color-change-1;
+}
+
+@keyframes color-change-1 {
+    0% {
+        color: rgb(255, 100, 100);
+    }
+    50% {
+        color: rgb(255, 200, 100);
+    }
+    100% {
+        color: rgb(255, 100, 100);
+    }
+}
+
+/* H3 2 */
+.h3-2 {
+    animation-name: color-change-2;
+}
+
+@keyframes color-change-2 {
+    0% {
+        color: rgb(100, 150, 255);
+    }
+    50% {
+        color: rgb(180, 100, 255);
+    }
+    100% {
+        color: rgb(100, 150, 255);
+    }
+}
